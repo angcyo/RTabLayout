@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color_primary">#0BD1A0</color>
+    <color name="theme_color_primary_dark">#20a886</color>
+    <color name="theme_color_accent">#0BD1A0</color>
+
+    <color name="theme_color_primary_dark_tran">#800BD1A0</color>
+    <color name="theme_color_primary_dark_tran2">#200BD1A0</color>
+    <color name="theme_color_primary_dark_tran3">#400BD1A0</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_dark">#40000000</color>
+    <color name="transparent_dark20">#20000000</color>
+    <color name="transparent_dark40">#40000000</color>
+    <color name="transparent_dark60">#60000000</color>
+    <color name="transparent_dark80">#80000000</color>
+    <color name="base_status_bar_dim">#20000000</color>
+
+    <color name="base_red">#FC3C38</color>
+    <color name="base_red2">#FF5252</color>
+    <color name="base_red3">#FF1C1C</color>
+    <color name="base_dark_red">#E85757</color>
+    <color name="base_dark_red_tran">#80E85757</color>
+    <color name="base_orange">#FD9C27</color>
+    <color name="base_gray">#C7C7CD</color>
+
+    <color name="base_red_dark">#9C1C18</color>
+    <color name="base_orange_dark">#BDAC37</color>
+
+    <color name="base_red_d85940">#D85940</color>
+    <color name="base_red_c8381f">#C8381F</color>
+
+    <color name="base_red_tran">#80FC3C38</color>
+    <color name="base_orange_tran">#80FD9C27</color>
+    <color name="base_gray_tran">#80C7C7CD</color>
+
+    <color name="default_base_tran_dark2">#20000000</color>
+    <color name="default_base_bg_press">#40000000</color>
+    <color name="default_base_tran_dark">#80000000</color>
+    <color name="default_base_bg_disable">#999999</color>
+    <color name="default_base_bg_disable2">#DDDDDD</color>
+    <color name="default_base_bg_dark">#333333</color>
+    <color name="default_base_bg_dark2">#F0F0F5</color>
+    <color name="default_base_bg_dark2_tran">#60F0F0F5</color>
+    <color name="default_base_white">#ffffff</color>
+    <color name="base_white">#ffffff</color>
+    <color name="base_white_tran">#19ffffff</color>
+    <color name="base_white_tran2">#40ffffff</color>
+    <color name="default_base_white_tran">#80ffffff</color>
+    <color name="default_base_white_dark">#C0FBEC</color>
+
+    <color name="default_pure_white">#ffffffff</color>
+
+    <color name="default_base_black">#000000</color>
+    <color name="default_base_line">#E0E0E0</color>
+    <color name="base_line_color">#494949</color>
+    <color name="base_line_color2">#B9B9B9</color>
+    <color name="default_base_border">#bfbfbf</color>
+
+    <color name="base_text_color">#333333</color>
+    <color name="base_text_color_dark">#999999</color>
+    <color name="base_text_color_dark2">#666666</color>
+    <color name="base_wx_dark">#303030</color>
+
+    <color name="base_chat_bg_color">#F0F0F5</color>
+    <color name="base_placeholder_color">#EFEFEF</color>
+
+    <color name="base_color_disable">#CBCBCB</color>
+    <color name="base_color_disable_enable">#E4E4E4</color>
+
+    <color name="base_main_color_bg_color">#F1F1F5</color>
+
+    <color name="base_mention_color">#507daf</color>
+
+    <color name="base_image_placeholder_color">#EFEFEF</color>
+
+    <!--金色-->
+    <color name="base_gold_color">#FDCA4A</color>
+    <!--跳转链接的颜色-->
+    <color name="base_link_color">#002AFF</color>
+    <color name="base_link_color_dark">#369AE7</color>
+</resources>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <com.angcyo.uiview.RTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:background="@color/transparent_dark20"
+        app:r_current_item="12">
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item0"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item1"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/base_xxxhdpi"
+            android:paddingStart="@dimen/base_xxhdpi"
+            android:text="Item2"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item3"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item4"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item5"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item6"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item7"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item8"/>
+
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item9"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item10"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item11"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item12"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item13"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item14"/>
+
+    </com.angcyo.uiview.RTabLayout>
+
+    <com.angcyo.uiview.RTabLayout
+        android:id="@+id/base_tab_layout2_1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:visibility="visible"
+        app:r_border_show="true"
+        app:r_indicator_round_size="45dp"
+        app:r_indicator_type="TYPE_ROUND_RECT_BLOCK"
+        app:r_item_equ_width="true">
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Item1"
+            android:textColor="@color/base_orange"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/base_orange"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Item3"
+            android:textColor="@color/base_orange"/>
+
+    </com.angcyo.uiview.RTabLayout>
+
+    <com.angcyo.uiview.RTabLayout
+        android:id="@+id/base_tab_layout2_2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:visibility="visible"
+        app:r_border_round_size="10dp"
+        app:r_border_show="true"
+        app:r_current_item="0"
+        app:r_indicator_enable_anim_overshoot="false"
+        app:r_indicator_offset_height="-6dp"
+        app:r_indicator_offset_width="-6dp"
+        app:r_indicator_round_size="10dp"
+        app:r_indicator_type="TYPE_ROUND_RECT_BLOCK"
+        app:r_item_equ_width="true">
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Item1"
+            android:textColor="@color/base_orange"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/base_orange"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Item3"
+            android:textColor="@color/base_orange"/>
+
+    </com.angcyo.uiview.RTabLayout>
+
+    <com.angcyo.uiview.RTabLayout
+        android:id="@+id/base_tab_layout2_3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:background="@color/base_gray"
+        android:visibility="visible"
+        app:r_border_fill_color="@color/base_white"
+        app:r_border_show="true"
+        app:r_current_item="0"
+        app:r_indicator_enable_anim="false"
+        app:r_indicator_enable_anim_overshoot="false"
+        app:r_indicator_offset_height="-16dp"
+        app:r_indicator_offset_width="-16dp"
+        app:r_indicator_round_size="45dp"
+        app:r_indicator_type="TYPE_ROUND_RECT_BLOCK"
+        app:r_item_equ_width="true">
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Item1"
+            android:textColor="@color/base_orange"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/base_orange"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Item3"
+            android:textColor="@color/base_orange"/>
+
+    </com.angcyo.uiview.RTabLayout>
+
+    <com.angcyo.uiview.RTabLayout
+        android:id="@+id/base_tab_layout2_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:visibility="visible"
+        app:r_border_show="true"
+        app:r_current_item="1"
+        app:r_indicator_drawable="@drawable/live_48_color"
+        app:r_indicator_enable_anim="true"
+        app:r_indicator_enable_anim_overshoot="false"
+        app:r_indicator_height="10dp"
+        app:r_indicator_offset_height="-10dp"
+        app:r_indicator_offset_width="-10dp"
+        app:r_indicator_offset_y="3dp"
+        app:r_indicator_round_size="45dp"
+        app:r_indicator_type="TYPE_BOTTOM_LINE"
+        app:r_indicator_width="20dp"
+        app:r_item_equ_width="true">
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Item1"
+            android:textColor="@color/base_orange"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/base_orange"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Item3"
+            android:textColor="@color/base_orange"/>
+
+    </com.angcyo.uiview.RTabLayout>
+
+    <com.angcyo.uiview.RTabLayout
+        android:id="@+id/base_tab_layout2_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/base_xxxhdpi"
+        android:layout_marginStart="@dimen/base_xxxhdpi"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:visibility="visible"
+        app:r_border_show="true"
+        app:r_current_item="1"
+        app:r_indicator_drawable="@drawable/gradient_shape"
+        app:r_indicator_enable_anim="true"
+        app:r_indicator_enable_anim_overshoot="true"
+        app:r_indicator_offset_height="-10dp"
+        app:r_indicator_offset_width="-10dp"
+        app:r_indicator_round_size="45dp"
+        app:r_indicator_type="TYPE_ROUND_RECT_BLOCK"
+        app:r_item_equ_width="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/live_48_color"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/live_48_color"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/live_48_color"/>
+
+        <!--<TextView-->
+        <!--style="@style/BaseMainTextStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Item1"-->
+        <!--android:textColor="@color/base_orange" />-->
+
+        <!--<TextView-->
+        <!--style="@style/BaseMainTextStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="TextView"-->
+        <!--android:textColor="@color/base_orange" />-->
+
+        <!--<TextView-->
+        <!--style="@style/BaseMainTextStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Item3"-->
+        <!--android:textColor="@color/base_orange" />-->
+
+    </com.angcyo.uiview.RTabLayout>
+
+    <com.angcyo.uiview.RTabLayout
+        android:id="@+id/base_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:background="@color/transparent_dark20"
+        app:r_current_item="2">
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item0"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item1"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/base_xxxhdpi"
+            android:paddingStart="@dimen/base_xxhdpi"
+            android:text="Item2"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item3"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item4"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item5"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item6"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item7"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item8"/>
+
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item9"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item10"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item11"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item12"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item13"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item14"/>
+
+    </com.angcyo.uiview.RTabLayout>
+
+    <com.angcyo.uiview.RTabLayout
+        android:id="@+id/base_tab_layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:background="@color/transparent_dark20"
+        android:visibility="visible"
+        app:r_indicator_offset_width="-20dp">
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:background="#20FC3C38"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item1"
+            android:textColor="@color/base_white"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item1"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#20002AFF"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item3"
+            android:textColor="@color/base_white"/>
+
+    </com.angcyo.uiview.RTabLayout>
+
+
+    <com.angcyo.uiview.RTabLayout
+        android:id="@+id/base_tab_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:background="@color/transparent_dark20"
+        app:r_indicator_color="@color/transparent_dark80"
+        app:r_indicator_offset_height="-8dp"
+        app:r_indicator_offset_width="6dp"
+        app:r_indicator_round_size="45dp"
+        app:r_indicator_type="TYPE_ROUND_RECT_BLOCK">
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item0"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item1"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/base_xxxhdpi"
+            android:paddingStart="@dimen/base_xxhdpi"
+            android:text="Item2"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item3"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item4"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item5"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item6"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item7"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item8"/>
+
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item9"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item10"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item11"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_xhdpi"
+            android:text="Item12"/>
+
+        <ImageView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:src="@drawable/base_delete"
+            android:text="Item13"/>
+
+        <TextView
+            style="@style/BaseMainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/base_xhdpi"
+            android:text="Item14"/>
+
+    </com.angcyo.uiview.RTabLayout>
+
+
+    <com.angcyo.rtablayout.RViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/base_xhdpi"
+        android:background="@color/transparent_dark80"/>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="action_bar_height">40dp</dimen>
+    <dimen name="title_bar_height">65dp</dimen>
+    <dimen name="tags_dialog_offset">40dp</dimen>
+    <dimen name="base_toast_shadow_height">8dp</dimen>
+    <dimen name="base_nav_shadow_height">4dp</dimen>
+
+    <dimen name="textSize_sidebar">10dp</dimen>
+    <dimen name="large_textSize_sidebar">32dp</dimen>
+    <dimen name="textSize_sidebar_choose">8dp</dimen>
+    <dimen name="textSize_sidebar_padding">20dp</dimen>
+    <dimen name="radius_sidebar">22dp</dimen>
+    <dimen name="ball_radius_sidebar">24dp</dimen>
+
+    <!--默认文本大小-->
+    <dimen name="default_text_size">14dp</dimen>
+    <dimen name="default_text_size_15">15dp</dimen>
+    <dimen name="default_text_little_size">12dp</dimen>
+    <dimen name="default_text_size16">16dp</dimen>
+    <dimen name="default_text_size20">20dp</dimen>
+    <dimen name="default_text_size9">9dp</dimen>
+    <dimen name="default_text_size8">8dp</dimen>
+    <dimen name="default_text_size10">10dp</dimen>
+    <dimen name="default_text_size18">18dp</dimen>
+    <dimen name="default_text_size50">50dp</dimen>
+    <!--默认按钮高度-->
+    <dimen name="default_button_height">45dp</dimen>
+
+    <!--默认的圆角大小-->
+    <dimen name="base_round_radius">6dp</dimen>
+    <dimen name="base_round_little_radius">3dp</dimen>
+    <dimen name="base_big_round_radius">40dp</dimen>
+    <!--标题的字体大小-->
+    <dimen name="base_title_size">16dp</dimen>
+    <!--标题上, 每个item的大小, 一般指的是宽度-->
+    <dimen name="base_title_bar_item_size">40dp</dimen>
+    <dimen name="base_item_size">48dp</dimen>
+
+    <!--对话框默认两边的距离-->
+    <dimen name="base_dialog_margin">30dp</dimen>
+    <!--线的大小-->
+    <dimen name="base_line">1dp</dimen>
+    <dimen name="base_line_px">1px</dimen>
+    <!--默认的线框大小-->
+    <dimen name="base_border_size">2dp</dimen>
+    <dimen name="base_border_size_px">2px</dimen>
+    <!--下滑线的高度-->
+    <dimen name="base_unline_size">4dp</dimen>
+    <dimen name="base_border_little_size">1dp</dimen>
+    <!--加载进度视图默认的大小-->
+    <dimen name="base_load_view_size">20dp</dimen>
+
+    <!--导航栏默认高度-->
+    <dimen name="base_navigation_bar_height">50dp</dimen>
+
+    <dimen name="base_0dpi">0dp</dimen>
+    <dimen name="base_dpi">1dp</dimen>
+    <dimen name="base_mdpi">2dp</dimen>
+    <dimen name="base_ldpi">4dp</dimen>
+    <dimen name="base_hdpi">8dp</dimen>
+    <dimen name="base_hdpi_">-8dp</dimen>
+    <dimen name="base_xhdpi">10dp</dimen>
+    <dimen name="base_xhdpi_15">15dp</dimen>
+    <dimen name="base_xhdpi_5">5dp</dimen>
+    <dimen name="base_xhdpi_">-10dp</dimen>
+    <dimen name="base_xxhdpi">20dp</dimen>
+    <dimen name="base_xxhdpi_">-20dp</dimen>
+    <dimen name="base_25dpi">25dp</dimen>
+    <dimen name="base_xxhdpi_24">24dp</dimen>
+    <dimen name="base_xxxhdpi">30dp</dimen>
+    <dimen name="base_35dpi">35dp</dimen>
+    <dimen name="base_40dpi">40dp</dimen>
+    <dimen name="base_45dpi">45dp</dimen>
+    <dimen name="base_40dpi_">-40dp</dimen>
+    <dimen name="base_50dpi">50dp</dimen>
+    <dimen name="base_55dpi">55dp</dimen>
+    <dimen name="base_50dpi_">-50dp</dimen>
+    <dimen name="base_60dpi">60dp</dimen>
+    <dimen name="base_65dpi">65dp</dimen>
+    <dimen name="base_70dpi">70dp</dimen>
+    <dimen name="base_75dpi">75dp</dimen>
+    <dimen name="base_60dpi_">-60dp</dimen>
+    <dimen name="base_80dpi">80dp</dimen>
+    <dimen name="base_85dpi">85dp</dimen>
+    <dimen name="base_80dpi_">-80dp</dimen>
+    <dimen name="base_90dpi">90dp</dimen>
+    <dimen name="base_100dpi">100dp</dimen>
+    <dimen name="base_120dpi">120dp</dimen>
+    <dimen name="base_160dpi">160dp</dimen>
+
+    <!--聊天界面, 输入框布局最小高度-->
+    <dimen name="base_chat_min_input_control_height">50dp</dimen>
+    <dimen name="base_chat_max_input_control_height">120dp</dimen>
+</resources>
