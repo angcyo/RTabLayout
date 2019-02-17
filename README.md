@@ -1,7 +1,7 @@
 # RTabLayout
 超级高效,轻量,极强自定义指示器,任意自定义Tab类型的TabLayout, 直接继承自ViewGroup实现.
 
-[截屏截图](https://img-blog.csdn.net/20180721104513628?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FuZ2N5bw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://img-blog.csdnimg.cn/20190217162015592.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FuZ2N5bw==,size_16,color_FFFFFF,t_70)
 
 
 #### 前言
