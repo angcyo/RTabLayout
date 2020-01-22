@@ -1,3 +1,6 @@
+此项目已废弃, 请使用更强大的[DslTabLayout](https://github.com/angcyo/DslTabLayout)
+
+
 # RTabLayout
 超级高效,轻量,极强自定义指示器,任意自定义Tab类型的TabLayout, 直接继承自ViewGroup实现.
 
